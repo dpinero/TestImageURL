@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <WebView android:id="@+id/webview9"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        >
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            android:text="@string/button_send18"
+            android:onClick="displaycategorical"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            android:text="@string/button_send19"
+            android:onClick="displaytornado"
+            />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        >
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            android:text="@string/button_send20"
+            android:onClick="displaywindt"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginTop="5dp"
+            android:text="@string/button_send21"
+            android:onClick="displayhailt"
+            />
+
+    </LinearLayout>
+</LinearLayout>

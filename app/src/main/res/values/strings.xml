@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SkyTools</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter a value</string>
+    <string name="button_send">Add</string>
+    <string name="button_send2">HRRR Radar</string>
+    <string name="button_send3">Next</string>
+    <string name="button_send4">Back</string>
+    <string name="button_send5">Show HRRR Loop</string>
+    <string name="button_send6">Repeat</string>
+    <string name="button_send7">Convective</string>
+    <string name="button_send8">Active Tropical Storms</string>
+    <string name="button_send9">Show Chart 1</string>
+    <string name="button_send10">Show Chart 2</string>
+    <string name="button_send11">Show Chart 3</string>
+    <string name="button_send12">Show Chart 4</string>
+    <string name="button_send13">Show Chart 5</string>
+    <string name="button_send14">Day 1</string>
+    <string name="button_send15">Day 2</string>
+    <string name="button_send16">Day 3</string>
+    <string name="button_send17">Day 4&#8212;8</string>
+    <string name="button_send18">Categorical</string>
+    <string name="button_send19">Tornado Threat</string>
+    <string name="button_send20">Wind Threat</string>
+    <string name="button_send21">Hail Threat</string>
+    <string name="button_send22">Probabilistic</string>
+    <string name="button_send23">Weather Models</string>
+    <string name="button_send24">HRRR Temp</string>
+    <string name="button_send25">HRRR Wind</string>
+    <string name="button_send26">HRRR Precip</string>
+    <string name="title_activity_display_message">Sum</string>
+    <string name="title_activity_display_picture">Bear</string>
+    <string name="bearpic">wah</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_open_image_url">HRRR Forecast</string>
+    <string name="title_activity_open_gifurl">HRRR Loop</string>
+    <string name="title_activity_convective">Choose Convective Day</string>
+    <string name="title_activity_tropical_storms">Current Tropical Activity</string>
+    <string name="title_activity_openstormcharts">NHC Storm Charts</string>
+    <string name="title_activity_convectiveviewer">Convective Forecast</string>
+    <string name="title_activity_convectiveviewer2">Convective Forecast</string>
+    <string name="title_activity_convectiveviewer3">convectiveviewer3</string>
+    <string name="title_activity_model_select">ModelSelect</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycompany.testimageurl" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OpenImageURL"
+            android:label="@string/title_activity_open_image_url"
+            android:parentActivityName=".ModelSelect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.testimageurl.MainActivity" />
+        </activity>
+        <activity
+            android:name=".OpenGIFURL"
+            android:label="@string/title_activity_open_gifurl"
+            android:parentActivityName=".ModelSelect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.testimageurl.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ConvectiveActivity"
+            android:label="@string/title_activity_convective"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.testimageurl.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TropicalStormsActivity"
+            android:label="@string/title_activity_tropical_storms"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.testimageurl.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Openstormcharts"
+            android:label="@string/title_activity_openstormcharts"
+            android:parentActivityName=".TropicalStormsActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.testimageurl.TropicalStormsActivity" />
+        </activity>
+        <activity
+            android:name=".convectiveviewer"
+            android:label="@string/title_activity_convectiveviewer"
+            android:parentActivityName=".ConvectiveActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.testimageurl.ConvectiveActivity" />
+        </activity>
+        <activity
+            android:name=".convectiveviewer2"
+            android:label="@string/title_activity_convectiveviewer2"
+            android:parentActivityName=".ConvectiveActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.testimageurl.ConvectiveActivity" />
+        </activity>
+        <activity
+            android:name=".convectiveviewer3"
+            android:label="@string/title_activity_convectiveviewer3"
+            android:parentActivityName=".ConvectiveActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.testimageurl.ConvectiveActivity" />
+        </activity>
+        <activity
+            android:name=".ModelSelect"
+            android:label="@string/title_activity_model_select"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.testimageurl.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
